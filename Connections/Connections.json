@@ -1,0 +1,212 @@
+{
+  "200d315f-53db-40a8-ba31-370aa48226bc": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3310/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://kauksa-my.sharepoint.com/personal/1936408_stu_kau_edu_sa": {
+        "dataSources": {
+          "doctors_4": {
+            "tableName": "ada5dd4a-2e6b-4f29-883d-32b3e9bdd5a7"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "doctors_4"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "200d315f-53db-40a8-ba31-370aa48226bc"
+  },
+  "933e49b2-b25b-44f3-9e0a-d9bca9df871d": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3310/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://kauksa-my.sharepoint.com/personal/1936408_stu_kau_edu_sa": {
+        "dataSources": {
+          "doctors": {
+            "tableName": "ada5dd4a-2e6b-4f29-883d-32b3e9bdd5a7"
+          },
+          "doctors_2": {
+            "tableName": "ada5dd4a-2e6b-4f29-883d-32b3e9bdd5a7"
+          },
+          "doctors_3": {
+            "tableName": "ada5dd4a-2e6b-4f29-883d-32b3e9bdd5a7"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "doctors",
+      "doctors_2",
+      "doctors_3"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "933e49b2-b25b-44f3-9e0a-d9bca9df871d"
+  },
+  "a17cfe2d-abca-4402-b13b-9335dd08945b": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "baad6d94-fa47-4090-8ebd-cd75a7ab6d0b": {
+          "value": "shared_outlook"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "eecfe7aa-95c0-42b8-8954-0be7a2594d8e"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_outlook": {
+          "value": "baad6d94-fa47-4090-8ebd-cd75a7ab6d0b"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "eecfe7aa-95c0-42b8-8954-0be7a2594d8e"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerApp->Sendanemail(V2)"
+    ],
+    "dependencies": {
+      "shared_outlook": "baad6d94-fa47-4090-8ebd-cd75a7ab6d0b"
+    },
+    "dependents": [],
+    "id": "a17cfe2d-abca-4402-b13b-9335dd08945b"
+  },
+  "b2a1c5ac-a7a5-4301-82cd-e76d3cbd9a2f": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3310/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://kauksa-my.sharepoint.com/personal/1936408_stu_kau_edu_sa": {
+        "dataSources": {
+          "Students": {
+            "tableName": "b0290b40-c198-4514-8743-71e8f45f1d83"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Students"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b2a1c5ac-a7a5-4301-82cd-e76d3cbd9a2f"
+  },
+  "b6d9cf67-445e-4cc2-99de-60ec0b28ffc1": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3310/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://kauksa-my.sharepoint.com/personal/1936408_stu_kau_edu_sa": {
+        "dataSources": {
+          "doctors_1": {
+            "tableName": "ada5dd4a-2e6b-4f29-883d-32b3e9bdd5a7"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "doctors_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b6d9cf67-445e-4cc2-99de-60ec0b28ffc1"
+  },
+  "baad6d94-fa47-4090-8ebd-cd75a7ab6d0b": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Outlook.com",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/outlook/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_outlook",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "a17cfe2d-abca-4402-b13b-9335dd08945b"
+    ],
+    "id": "baad6d94-fa47-4090-8ebd-cd75a7ab6d0b"
+  },
+  "e24f4842-d7d8-4b7e-a3d6-e74fccb8a4ba": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3310/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://kauksa-my.sharepoint.com/personal/1936408_stu_kau_edu_sa": {
+        "dataSources": {
+          "Students_1": {
+            "tableName": "b0290b40-c198-4514-8743-71e8f45f1d83"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Students_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e24f4842-d7d8-4b7e-a3d6-e74fccb8a4ba"
+  },
+  "f7ba2846-0931-4639-9d36-c7e6ef26fd4a": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3310/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://kauksa-my.sharepoint.com/personal/1936408_stu_kau_edu_sa": {
+        "dataSources": {
+          "Students_2": {
+            "tableName": "b0290b40-c198-4514-8743-71e8f45f1d83"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Students_2"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f7ba2846-0931-4639-9d36-c7e6ef26fd4a"
+  }
+}
