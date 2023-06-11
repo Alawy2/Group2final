@@ -1,0 +1,128 @@
+"'ARON History_4' As screen":
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_71 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_71 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =2
+
+    Label17_4 As label:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =152
+        Size: =15
+        Text: |-
+            ="1- Focus on the theory part and review the information in the lab class.
+            2- Do the assignments/quizz alone because very high chance that the exam will be similar."
+        Width: =610
+        Y: =222
+        ZIndex: =14
+
+    Label17_6 As label:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =152
+        Size: =15
+        Text: |-
+            ="3- In the hard courses try to study each day.
+            4- Try to know the style of the doctor and how will be the exam style."
+        Width: =610
+        Y: =374
+        ZIndex: =15
+
+    Label17_5 As label:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =152
+        Size: =15
+        Text: |-
+            ="5- If there is a extra task to gain more marks dont lose this chance at any cost.
+            6- Try to get more information about the doctor before choose him."
+        Width: =610
+        X: =756
+        Y: =222
+        ZIndex: =16
+
+    Label17_7 As label:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =152
+        Size: =15
+        Text: |-
+            ="7- Self-learning is one of the most important things in our college.
+            8- Write notes is a good strategy to keep up with the doctors."
+        Width: =610
+        X: =756
+        Y: =374
+        ZIndex: =17
+
+    Icon3_2 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =80
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate('ARON History')
+        Width: =76
+        Y: =140
+        ZIndex: =18
+
+    Label25 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =62
+        Size: =15
+        Text: ="Don't take these courses with each other(Hardest Courses)"
+        Width: =610
+        X: =364
+        Y: =526
+        ZIndex: =19
+
+    Label25_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 0, 0, 1)
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =62
+        Size: =15
+        Text: ="CPCS-222,CPCS-204,CPIS-312,CPIS-358"
+        Width: =610
+        X: =364
+        Y: =606
+        ZIndex: =20
+
+    Image3_39 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =21
+
+    Button1_21 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =22
+
+    Button8_39 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =23
+

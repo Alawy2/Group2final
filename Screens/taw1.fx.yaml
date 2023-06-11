@@ -1,0 +1,72 @@
+taw1 As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_81 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_81 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =2
+
+    Icon2_24 As icon.ChevronLeft:
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Tawfiq Hasanin')
+        Y: =140
+        ZIndex: =10
+
+    Label8_6 As label:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =130
+        Size: =19
+        Text: ="Doctor Tawfiq is very good at the teaching part. When he teaches you something he will go over it again and again until he makes sure that the student will not forget it at all. Any subject about the software engineering and the logical gates Dr. Tawfiq is the best doctor for you."
+        Width: =1366
+        Y: =230
+        ZIndex: =11
+
+    Label9_6 As label:
+        Fill: =RGBA(209, 232, 178, 1)
+        Height: =122
+        Size: =19
+        Text: ="With Dr.Tawfiq you should focus with him all the time because sometimes he expects you to know a specific part therefore he skips it. For that, you should tell him that you don't know this subject so you don't get lost."
+        Width: =1366
+        Y: =360
+        ZIndex: =12
+
+    Image3_82 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =13
+
+    Button1_105 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =14
+
+    Button8_82 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =15
+

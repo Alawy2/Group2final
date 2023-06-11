@@ -1,0 +1,72 @@
+zahid2 As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_69 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_69 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =2
+
+    Icon2_17 As icon.ChevronLeft:
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Zahid Khann')
+        Y: =140
+        ZIndex: =10
+
+    Label8_4 As label:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =130
+        Size: =19
+        Text: ="Doctor Zahid is very relaxed and chill. His homework is easy and can be solved within class time. He should be your number-one choice if you want to take any lab. He is not strict with deadlines."
+        Width: =1366
+        Y: =230
+        ZIndex: =11
+
+    Label9_4 As label:
+        Fill: =RGBA(209, 232, 178, 1)
+        Height: =122
+        Size: =19
+        Text: ="With Dr.Zahid, you can ask him about anything that you have a problem with, then he will help you understand it. Don't be afraid to ask him for anything."
+        Width: =1366
+        Y: =360
+        ZIndex: =12
+
+    Image3_73 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =13
+
+    Button1_92 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =14
+
+    Button8_73 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =15
+

@@ -1,0 +1,124 @@
+major_quiz_4 As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_43 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_43 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =14
+
+    Label11_15 As label:
+        Fill: =RGBA(209, 232, 178, 1)
+        Height: =561
+        Text: =""
+        Width: =1189
+        X: =108
+        Y: =180
+        ZIndex: =15
+
+    Label12_49 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        Size: =20
+        Text: ="Which Of Thease Are The Most Interesting In Your Opinion?"
+        Width: =593
+        X: =411
+        Y: =212
+        ZIndex: =16
+
+    Label12_51 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: |
+            = Set(it,it+1);Set(is,is+1);Set(high2,"");Set(high3,1);Navigate(major_quiz_5)
+        Size: =20
+        Text: ="Decision Support System"
+        Width: =451
+        X: =798
+        Y: =424
+        ZIndex: =17
+
+    Label12_50 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: =Set(it,it+1); Set(is,is+1);Set(high2,"");Set(high3,1);Navigate(major_quiz_5)
+        Size: =20
+        Text: ="Data Mining"
+        Width: =451
+        X: =140
+        Y: =424
+        ZIndex: =18
+
+    Label12_52 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: =Set(cs,cs+1);Set(high2,"");Set(high3,1);Navigate(major_quiz_5)
+        Size: =20
+        Text: ="Artificial Intelligence"
+        Width: =451
+        X: =140
+        Y: =562
+        ZIndex: =19
+
+    Label12_53 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: |
+            = Set(cs,cs+1); Set(high2,"");Set(high3,1);Navigate(major_quiz_5)
+        Size: =20
+        Text: ="Compiler Construction"
+        Width: =451
+        X: =798
+        Y: =562
+        ZIndex: =20
+
+    Image3_21 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =21
+
+    Button1_156 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =22
+
+    Button8_21 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =23
+

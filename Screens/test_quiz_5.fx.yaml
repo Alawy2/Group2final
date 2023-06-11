@@ -1,0 +1,97 @@
+test_quiz_5 As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_50 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_50 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =14
+
+    Label11_21 As label:
+        Fill: =RGBA(209, 232, 178, 1)
+        Height: =561
+        Text: =""
+        Width: =1189
+        X: =108
+        Y: =180
+        ZIndex: =15
+
+    Label12_72 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =109
+        Size: =20
+        Text: ="Senior Project Must Be Done By A Group Of 3 No More No Less"
+        Width: =593
+        X: =411
+        Y: =212
+        ZIndex: =16
+
+    Label12_74 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: |
+            =Set(total,total + 7);Navigate(test_quiz_6)
+        Size: =20
+        Text: ="False"
+        Width: =451
+        X: =819
+        Y: =435
+        ZIndex: =17
+
+    Label12_73 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: =Navigate(test_quiz_6)
+        Size: =20
+        Text: ="True"
+        Width: =451
+        X: =140
+        Y: =435
+        ZIndex: =18
+
+    Image3_12 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =19
+
+    Button1_40 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =20
+
+    Button8_12 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =21
+

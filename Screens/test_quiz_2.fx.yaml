@@ -1,0 +1,110 @@
+test_quiz_2 As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_47 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_47 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =14
+
+    Label11_18 As label:
+        Fill: =RGBA(209, 232, 178, 1)
+        Height: =561
+        Text: =""
+        Width: =1189
+        X: =108
+        Y: =180
+        ZIndex: =15
+
+    Label12_62 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =109
+        Size: =20
+        Text: ="In The IS New Plan Which Of These Orders Is True? (Bassed On The Semesters Order)"
+        Width: =593
+        X: =411
+        Y: =212
+        ZIndex: =16
+
+    Label12_64 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: |
+            =Set(total,total + 20);Navigate(test_quiz_3)
+        Size: =20
+        Text: ="CPIS-240 -> MRKT-260 -> CPIS-312"
+        Width: =451
+        X: =820
+        Y: =391
+        ZIndex: =17
+
+    Label12_63 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: =Navigate(test_quiz_3)
+        Size: =20
+        Text: ="CPIS-240 -> CPIS-312 -> MRKT-260"
+        Width: =451
+        X: =140
+        Y: =391
+        ZIndex: =18
+
+    Label12_65 As label:
+        Align: =Align.Center
+        Fill: =RGBA(175, 191, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: =Navigate(test_quiz_3)
+        Size: =20
+        Text: ="MRKT-260 -> CPIS-240 -> CPIS-312"
+        Width: =451
+        X: =466
+        Y: =519
+        ZIndex: =19
+
+    Image3_9 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =20
+
+    Button1_17 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =21
+
+    Button8_9 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =22
+

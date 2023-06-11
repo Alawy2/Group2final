@@ -1,0 +1,115 @@
+Login As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_32 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_32 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =2
+
+    Label18 As label:
+        Align: =Align.Center
+        Fill: =RGBA(141, 198, 63, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =352
+        Size: =25
+        Text: ="Login Form"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =1032
+        X: =162
+        Y: =207
+        ZIndex: =9
+
+    TextInput2 As text:
+        Default: =""
+        Format: =TextFormat.Number
+        Height: =66
+        HintText: ="Kau ID"
+        Width: =247
+        X: =201
+        Y: =300
+        ZIndex: =10
+
+    TextInput2_1 As text:
+        Default: =""
+        Height: =66
+        HintText: ="Password"
+        Mode: =If(Button6.Pressed,TextMode.SingleLine,TextMode.Password)
+        Width: =247
+        X: =201
+        Y: =420
+        ZIndex: =11
+
+    Button3 As button:
+        Height: =66
+        OnSelect: =If(!IsBlank(LookUp(Students_2,kauid=TextInput2.Text And Password=TextInput2_1.Text).kauid),Navigate(Login_1),Navigate(Login_2))
+        Text: ="Login"
+        X: =992
+        Y: =366
+        ZIndex: =12
+
+    Icon5 As icon.BackArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Report)
+        Y: =143
+        ZIndex: =13
+
+    Icon7 As icon.View:
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =66
+        Icon: =Icon.View
+        Width: =50
+        X: =398
+        Y: =420
+        ZIndex: =14
+
+    Button6 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =66
+        Text: =""
+        Width: =50
+        X: =398
+        Y: =420
+        ZIndex: =15
+
+    Image3_46 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =16
+
+    Button1_26 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =17
+
+    Button8_46 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =18
+

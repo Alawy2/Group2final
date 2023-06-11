@@ -1,0 +1,88 @@
+"'ARON History_5' As screen":
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_72 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_72 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =2
+
+    Label17_8 As label:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =152
+        Size: =15
+        Text: ="Hate speech incites violence and intolerance. The devastating effect of hatred is sadly nothing new. However, its scale and impact are now amplified by new communications technologies. Hate speech – including online – has become one of the most common ways of spreading divisive rhetoric on a global scale, threatening peace around the world."
+        Width: =610
+        Y: =222
+        ZIndex: =14
+
+    Label17_10 As label:
+        Fill: =RGBA(214, 223, 238, 1)
+        Height: =152
+        Size: =15
+        Text: ="Feedback will always protect your personal information (such as your name and contact details, known as ‘personal data’)."
+        Width: =610
+        X: =381
+        Y: =438
+        ZIndex: =15
+
+    Label17_9 As label:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =152
+        Size: =15
+        Text: ="You have the right to request that we delete your information and can discuss this with us at any time."
+        Width: =610
+        X: =756
+        Y: =222
+        ZIndex: =16
+
+    Icon3_3 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =80
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate('ARON History')
+        Width: =76
+        Y: =140
+        ZIndex: =18
+
+    Image3_40 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =19
+
+    Button1_22 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =20
+
+    Button8_40 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =21
+

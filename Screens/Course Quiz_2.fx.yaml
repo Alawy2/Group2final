@@ -1,0 +1,97 @@
+"'Course Quiz_2' As screen":
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_16 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_16 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =14
+
+    Label11_2 As label:
+        Fill: =RGBA(209, 232, 178, 1)
+        Height: =561
+        Text: =""
+        Width: =1189
+        X: =108
+        Y: =180
+        ZIndex: =15
+
+    Label12_6 As label:
+        Align: =Align.Center
+        Fill: =RGBA(186, 202, 226, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        Size: =20
+        Text: ="Do You Prefer The Theoretical Courses Or The Partical Courses?"
+        Width: =593
+        X: =411
+        Y: =212
+        ZIndex: =16
+
+    Label12_8 As label:
+        Align: =Align.Center
+        Fill: =RGBA(186, 202, 226, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: |
+            =Set(cpis240,cpis240+1); Set(cpis320,cpis320+1); Set(cpis358,cpis358 + 1);Navigate('Course Quiz_3')
+        Size: =20
+        Text: ="Partical Courses"
+        Width: =451
+        X: =805
+        Y: =493
+        ZIndex: =17
+
+    Label12_7 As label:
+        Align: =Align.Center
+        Fill: =RGBA(186, 202, 226, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =73
+        OnSelect: = Set(cpis250,cpis250+1);Set(cpis351,cpis351+1);Set(cpis352,cpis352+1);Set(cpis380,cpis380+1);Navigate('Course Quiz_3')
+        Size: =20
+        Text: ="Theoretical Courses"
+        Width: =451
+        X: =140
+        Y: =493
+        ZIndex: =18
+
+    Image3_26 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =19
+
+    Button1_161 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =20
+
+    Button8_26 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =21
+

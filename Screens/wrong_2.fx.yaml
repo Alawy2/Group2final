@@ -1,0 +1,76 @@
+wrong_2 As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_36 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_36 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =2
+
+    Label21_2 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =114
+        Size: =24
+        Text: ="Your Comment Has Been Uploaded"
+        Width: =774
+        X: =330
+        Y: =234
+        ZIndex: =9
+
+    Button4_2 As button:
+        Height: =90
+        OnSelect: =Navigate(Screen1)
+        Text: ="Home"
+        Width: =254
+        X: =522
+        Y: =401
+        ZIndex: =10
+
+    Icon4_1 As icon.Check:
+        Fill: =RGBA(152, 208, 70, 1)
+        Icon: =Icon.Check
+        X: =917
+        Y: =259
+        ZIndex: =11
+
+    Image3_43 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =12
+
+    Button1_24 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =13
+
+    Button8_43 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =14
+

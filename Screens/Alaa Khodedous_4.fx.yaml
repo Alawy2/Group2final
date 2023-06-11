@@ -1,0 +1,72 @@
+"'Alaa Khodedous_4' As screen":
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_12 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_12 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =2
+
+    Icon2_2 As icon.ChevronLeft:
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Alaa Khodedous')
+        Y: =140
+        ZIndex: =10
+
+    Label8 As label:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =130
+        Size: =19
+        Text: ="Doctor Alla is a very punctual and strict person. His style of teaching is very unique and he can deliver the information to the student's mind without any difficulty. His homework and exams are made with intelligence to make the student think a lot instead of memorizing. He should be your number one choice if you want to study more and participate in the class."
+        Width: =1366
+        Y: =230
+        ZIndex: =11
+
+    Label9 As label:
+        Fill: =RGBA(209, 232, 178, 1)
+        Height: =122
+        Size: =19
+        Text: ="With Dr.Alla, you should study day by day because he doesn’t like to see unactive students. Don’t be late uploading any assignments or homework. You can ask the doctor about anything around the topic I can assure you that he is very educated in his space."
+        Width: =1366
+        Y: =360
+        ZIndex: =12
+
+    Image3_58 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =13
+
+    Button1_68 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =14
+
+    Button8_58 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =15
+

@@ -1,0 +1,64 @@
+abdul2 As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_87 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_87 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =2
+
+    Label5_15 As label:
+        Fill: =RGBA(250, 155, 112, 1)
+        Height: =288
+        Size: =20
+        Text: ="CPIS-380 and CPIS-358 are his best courses because he teaches the practical part in a way that explains the theoretical part as well. Web Development courses are his part."
+        Width: =844
+        X: =264
+        Y: =208
+        ZIndex: =9
+
+    Icon2_29 As icon.ChevronLeft:
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Abdulaziz Alsulami')
+        Y: =140
+        ZIndex: =10
+
+    Image3_88 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =11
+
+    Button1_115 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =12
+
+    Button8_88 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =13
+

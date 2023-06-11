@@ -1,0 +1,112 @@
+"'Sashi Arafat' As screen":
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label4 As label:
+        Text: ="sashi"
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Label1_5 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =2
+
+    Image2_5 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =3
+
+    Button1_56 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =140
+        OnSelect: =Navigate(sashi2)
+        Size: =20
+        Text: ="Information about the doctor"
+        Width: =358
+        X: =1008
+        Y: =227
+        ZIndex: =10
+
+    Button1_57 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =76
+        OnSelect: =Navigate(sashi)
+        Size: =20
+        Text: ="Best courses"
+        Width: =358
+        X: =1008
+        Y: =367
+        ZIndex: =11
+
+    Button1_58 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =76
+        OnSelect: =Navigate(sashi3)
+        Size: =20
+        Text: ="Advantages and Disadvantages"
+        Width: =358
+        X: =1008
+        Y: =443
+        ZIndex: =12
+
+    Button1_59 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =76
+        OnSelect: =Navigate(sashi1)
+        Size: =20
+        Text: ="Contact information"
+        Width: =358
+        X: =1008
+        Y: =519
+        ZIndex: =13
+
+    Label19 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =54
+        Size: =20
+        Text: ="Doctor Sashi Arafat"
+        Width: =318
+        X: =1048
+        Y: =26
+        ZIndex: =14
+
+    Image3_51 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =16
+
+    Button1_34 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =17
+
+    Button8_51 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =18
+

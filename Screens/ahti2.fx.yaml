@@ -1,0 +1,72 @@
+ahti2 As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_66 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_66 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =2
+
+    Icon2_14 As icon.ChevronLeft:
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Ahtisham Aslam')
+        Y: =140
+        ZIndex: =10
+
+    Label8_1 As label:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =130
+        Size: =19
+        Text: ="Doctor Ahtisham is very punctual and smart in his way of teaching. His style of teaching is very unique and he can deliver the information to the student's mind without any difficulty. His homework and exams cover everything in the course, so don't skip anything. He should be your number one choice if you want to take CPIS-358."
+        Width: =1366
+        Y: =230
+        ZIndex: =11
+
+    Label9_1 As label:
+        Fill: =RGBA(209, 232, 178, 1)
+        Height: =122
+        Size: =19
+        Text: ="With Dr.Ahtisham you should study day by day because he doesn’t like to see inactive students. He can give extra time to students that didn't finish the tasks. You can ask the doctor about anything around the topic I can assure you that he is very educated in his space."
+        Width: =1366
+        Y: =360
+        ZIndex: =12
+
+    Image3_70 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =13
+
+    Button1_89 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =14
+
+    Button8_70 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =15
+

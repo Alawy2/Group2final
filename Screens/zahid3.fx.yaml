@@ -1,0 +1,82 @@
+zahid3 As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_77 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_77 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =2
+
+    Icon2_22 As icon.ChevronLeft:
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate('Zahid Khann')
+        Y: =140
+        ZIndex: =10
+
+    Label6_8 As label:
+        Fill: =RGBA(152, 208, 70, 1)
+        Height: =427
+        Size: =20
+        Text: |-
+            ="Advantages: 
+            - Good communication with the students.
+            - Forgiven and patience with the tasks.
+            - Only English teaching.
+            - Always available.
+            - He can made the course easier for the students.
+            "
+        Width: =630
+        Y: =260
+        ZIndex: =11
+
+    Label6_9 As label:
+        Fill: =RGBA(246, 88, 16, 1)
+        Height: =427
+        Size: =20
+        Text: |-
+            ="Disadvantages: 
+            - Slow in finishing the course material."
+        Width: =564
+        X: =802
+        Y: =260
+        ZIndex: =12
+
+    Image3_78 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =13
+
+    Button1_97 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =14
+
+    Button8_78 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =15
+

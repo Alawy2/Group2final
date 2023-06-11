@@ -1,0 +1,66 @@
+"'Contact us' As screen":
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_70 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_70 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =2
+
+    Label5_2 As label:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =284
+        Size: =20
+        Text: |-
+            ="
+            Admin Name : Alawy Jefry.
+            Building: Number 39 (FCIT College).
+            Information System Department.
+            Email: aaljefry0002@stu.kau.edu.sa
+            
+            "
+        Width: =492
+        X: =425
+        Y: =271
+        ZIndex: =9
+
+    Image3_57 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =11
+
+    Button1_48 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =12
+
+    Button8_57 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =13
+

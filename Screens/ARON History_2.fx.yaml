@@ -1,0 +1,97 @@
+"'ARON History_2' As screen":
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_28 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_28 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =2
+
+    Label17 As label:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =152
+        Size: =15
+        Text: ="1- Help the students to choose what course is best for them through a small exam or a few tips like the student should finish a specific course to make it easy."
+        Width: =610
+        Y: =222
+        ZIndex: =14
+
+    Label17_1 As label:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =152
+        Size: =15
+        Text: ="2- Give most of the information to the students that any student needed, and I know this because I needed some of this information."
+        Width: =610
+        Y: =374
+        ZIndex: =15
+
+    Label17_2 As label:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =152
+        Size: =15
+        Text: ="3- Help the students to choose which doctor is best for them based on the information available in the system or based on stakeholders feedback and rating."
+        Width: =610
+        X: =756
+        Y: =222
+        ZIndex: =16
+
+    Label17_3 As label:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =152
+        Size: =15
+        Text: ="4- Provide students with a plan and guidelines about whether they need to take the course now or in the future."
+        Width: =610
+        X: =756
+        Y: =374
+        ZIndex: =17
+
+    Icon3_1 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =80
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate('ARON History')
+        Width: =76
+        Y: =140
+        ZIndex: =18
+
+    Image3_38 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =19
+
+    Button1_20 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =20
+
+    Button8_38 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =21
+

@@ -1,0 +1,199 @@
+signup As screen:
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_33 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_33 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =2
+
+    Label18_1 As label:
+        Align: =Align.Center
+        Fill: =RGBA(141, 198, 63, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =480
+        Size: =25
+        Text: ="Sign up Form"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =1190
+        X: =105
+        Y: =207
+        ZIndex: =9
+
+    TextInput2_2 As text:
+        Default: =""
+        Format: =TextFormat.Number
+        Height: =66
+        HintText: ="Kau ID"
+        Width: =247
+        X: =201
+        Y: =300
+        ZIndex: =10
+
+    TextInput2_3 As text:
+        Default: =""
+        Height: =66
+        HintText: ="Password"
+        Mode: =If(Button5.Pressed,TextMode.SingleLine,TextMode.Password)
+        Width: =247
+        X: =201
+        Y: =405
+        ZIndex: =11
+
+    Button3_1 As button:
+        Height: =66
+        OnSelect: |-
+            =If(!IsBlank(TextInput2_2) &&!IsBlank(TextInput2_3) &&!IsBlank(TextInput2_4) &&!IsBlank(TextInput2_5) &&!IsBlank(TextInput2_6)&&!IsBlank(TextInput2_7)&&!IsBlank(TextInput2_8)&& (TextInput2_3.Text = TextInput2_5.Text)&&(TextInput2_7.Text = TextInput2_6.Text),Patch(Students_2,Defaults(Students_2),{Title:TextInput2_4.Text,kauid:TextInput2_2.Text,Password:TextInput2_3.Text,Email:TextInput2_6.Text,'Request/Report':TextInput2_8.Text}),Reset(TextInput2)&&Reset(TextInput2_1)&&Reset(TextInput2_2)&&Reset(TextInput2_3)&&Reset(TextInput2_4)&&Reset(TextInput2_5)&&Reset(TextInput2_6)&&Reset(TextInput2_7)&&Reset(TextInput2_8)&&Navigate(signup_1));
+            If(!IsBlank(TextInput2_2) &&!IsBlank(TextInput2_3) &&!IsBlank(TextInput2_4) &&!IsBlank(TextInput2_5) &&!IsBlank(TextInput2_6)&&!IsBlank(TextInput2_7)&&!IsBlank(TextInput2_8)&& (TextInput2_3.Text = TextInput2_5.Text)&&(TextInput2_7.Text = TextInput2_6.Text),'PowerApp->Sendanemail(V2)'.Run()&&Navigate(wrong_1));
+        Text: ="Sign up"
+        X: =1107
+        Y: =591
+        ZIndex: =12
+
+    TextInput2_4 As text:
+        Default: =""
+        Height: =66
+        HintText: ="Name"
+        Width: =247
+        X: =483
+        Y: =300
+        ZIndex: =13
+
+    TextInput2_5 As text:
+        Default: =""
+        Height: =66
+        HintText: ="Confirm Password"
+        Mode: =If(Button5_1.Pressed,TextMode.SingleLine,TextMode.Password)
+        Width: =247
+        X: =483
+        Y: =405
+        ZIndex: =14
+
+    TextInput2_6 As text:
+        Default: =""
+        Height: =66
+        HintText: ="Confirm Email"
+        Width: =247
+        X: =783
+        Y: =405
+        ZIndex: =15
+
+    TextInput2_7 As text:
+        Default: =""
+        Height: =66
+        HintText: ="Email"
+        Width: =247
+        X: =783
+        Y: =300
+        ZIndex: =16
+
+    TextInput2_8 As text:
+        Default: =""
+        Height: =158
+        HintText: ="Write Your Comment Here"
+        Width: =829
+        X: =201
+        Y: =510
+        ZIndex: =17
+
+    Label20 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =48
+        Size: =18
+        Text: ="All Inputs Should Be Filled"
+        Width: =327
+        X: =201
+        Y: =243
+        ZIndex: =18
+
+    Icon5_1 As icon.BackArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Report)
+        Y: =141
+        ZIndex: =19
+
+    Icon6 As icon.View:
+        Fill: =RGBA(186, 202, 226, 1)
+        Height: =65
+        Icon: =Icon.View
+        Width: =36
+        X: =412
+        Y: =406
+        ZIndex: =20
+
+    Icon6_1 As icon.View:
+        Fill: =RGBA(186, 202, 226, 1)
+        Height: =65
+        Icon: =Icon.View
+        Width: =36
+        X: =694
+        Y: =406
+        ZIndex: =21
+
+    Button5 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =66
+        Text: =""
+        Width: =35
+        X: =412
+        Y: =405
+        ZIndex: =22
+
+    Button5_1 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =66
+        Text: =""
+        Width: =35
+        X: =695
+        Y: =405
+        ZIndex: =23
+
+    Image3_49 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =26
+
+    Button1_28 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =27
+
+    Button8_49 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =28
+
+    Dropdown1 As dropdown:
+        Default: ="@stu.kau.edu.sa"
+        Items: =["@stu.kau.edu.sa","@kau.edu.sa"]
+        Width: =236
+        X: =1045
+        Y: =310
+        ZIndex: =29
+

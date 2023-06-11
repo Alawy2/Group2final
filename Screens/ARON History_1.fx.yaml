@@ -1,0 +1,79 @@
+"'ARON History_1' As screen":
+    Fill: =RGBA(0, 18, 107, 1)
+
+    Label1_27 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 16, 96, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =1
+
+    Image2_27 As image:
+        Height: =140
+        Image: =logo
+        OnSelect: =Navigate(Screen1)
+        Width: =140
+        ZIndex: =2
+
+    Label16 As label:
+        Align: =Align.Center
+        Fill: =RGBA(141, 198, 63, 1)
+        Height: =152
+        Size: =18
+        Text: ="When I Think Of ARON Website It Comes to My Mind The Word Iron But To Make It Modren I Changed The First Letter With The Developer's First Letter Name."
+        Width: =1366
+        Y: =220
+        ZIndex: =9
+
+    Label16_1 As label:
+        Align: =Align.Center
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =158
+        Size: =18
+        Text: ="ARON Has Many Meanings In Other Languages Examples include Strong, Teacher, Exalted, and Mountain Of Strength. "
+        Width: =1366
+        Y: =372
+        ZIndex: =10
+
+    Icon3 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =80
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate('ARON History')
+        Width: =76
+        Y: =140
+        ZIndex: =11
+
+    Image3_37 As image:
+        Height: =140
+        Image: =logo
+        Width: =140
+        ZIndex: =12
+
+    Button1_19 As button:
+        Fill: =RGBA(0, 16, 96, 1)
+        Height: =124
+        OnSelect: =Navigate(Screen1)
+        Size: =30
+        Text: ="Welcome to ARON"
+        Width: =536
+        X: =381
+        ZIndex: =13
+
+    Button8_37 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =140
+        HoverFill: =
+        OnSelect: =Navigate(Screen1)
+        PressedFill: =
+        Text: =""
+        Width: =140
+        ZIndex: =14
+
